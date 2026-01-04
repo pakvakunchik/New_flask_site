@@ -68,6 +68,8 @@ footer {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    -webkit-box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
 }
 
 .item .item-in {
