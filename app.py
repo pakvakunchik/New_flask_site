@@ -1,9 +1,6 @@
-from flask import Flask, render_template, request, redirect
-from flask_sqlalchemy import SQLAlchemy
+from flask import render_template, request, redirect
+from constants import app, db
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///new_flask_site.db'
-db = SQLAlchemy(app)
 
 
 class Post(db.Model):
